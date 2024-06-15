@@ -1,10 +1,12 @@
 *{
-<<<<<<< HEAD
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: sans-serif;
 }
@@ -32,6 +34,8 @@ body{
     width: 100%;
     height: 100%;
     background-color: red;
+    /*border-radius: 50%;*/
+    box-shadow: inset 5px 5px 5px blue, 5px 5px 5px rgba(0, 0, 0, 0.5), inset -5px -5px 5px blue
 }
 
 .menu{
@@ -66,15 +70,15 @@ body{
 
 .full-page{
     max-width: 100%;
-    padding: 0 30px;
-    margin: 0 auto;
-    padding-top: 73x;
+    padding-top: 73px;
     height: 100vh;
     background-color: turquoise;
 }
 
 .full-page-content {
     max-width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
 }
 
 @media all and (max-width: 568px){
@@ -100,49 +104,3 @@ body{
         width: 25%;
     }
 }
-=======
-    padding: 0;
-    margin: 0;
-    border: 0;
-}
-
-.tudo{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    background-color: grey;
-}
-
-.cabecalho{
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 15px;
-}
-
-.cabecalho-menor{
-    padding: 15px;
-    margin-left: 10%;
-    margin-right: 10%;
-    color: red;
-    font-family: sans-serif;
-    font-size: 2.5em;
-}
-
-.corpo{
-    flex-grow: 1;
-    padding-top: 6em;
-    padding-bottom: 6em;
-    padding-left: 18em;
-    padding-right: 18em;
-}
-
-.forms{
-    background-color: rgba(0, 0, 0, 0.6);
-    height: 55em;
-    padding: 3em;
-}
-
-.titulo{
-    font-family: sans-serif;
-    font-size: 2.5em;
-}
->>>>>>> 2d733ed1e1fd1277a6251f4808eaa4fd768735ef
