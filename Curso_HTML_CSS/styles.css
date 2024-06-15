@@ -1,4 +1,5 @@
 *{
+<<<<<<< HEAD
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -99,3 +100,49 @@ body{
         width: 25%;
     }
 }
+=======
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.tudo{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: grey;
+}
+
+.cabecalho{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+
+.cabecalho-menor{
+    padding: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: red;
+    font-family: sans-serif;
+    font-size: 2.5em;
+}
+
+.corpo{
+    flex-grow: 1;
+    padding-top: 6em;
+    padding-bottom: 6em;
+    padding-left: 18em;
+    padding-right: 18em;
+}
+
+.forms{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 55em;
+    padding: 3em;
+}
+
+.titulo{
+    font-family: sans-serif;
+    font-size: 2.5em;
+}
+>>>>>>> 2d733ed1e1fd1277a6251f4808eaa4fd768735ef
